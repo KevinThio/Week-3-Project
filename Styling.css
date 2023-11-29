@@ -1,0 +1,43 @@
+.Navbar{
+    display: flex;
+    background-color: cornflowerblue;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    height: 100px;
+    padding: 10px;
+    text-align: center;
+}
+.Navbar ul{
+    padding-left: 1000px;
+    color: white;
+    display: flex;
+    list-style: none;
+    text-underline-position: unset;
+}
+
+.Navbar ul a{
+    padding: 20px;
+}
+.desc{
+    font-style: italic;
+    color: chocolate;
+}
+.Contact{
+    display: grid;
+    text-align: center;
+}
+form{
+    display: grid;
+    width: 50%;
+    height: 25%;
+}
+button{
+    width: 10%;
+}
+@media screen and (max-width: 1200px) {
+  .NavbarContent {
+    display: inline-block;
+  }
+    
+    
+}
